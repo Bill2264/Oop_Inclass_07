@@ -13,9 +13,18 @@ public class LaptopLoan {
     @Email
     private String studentEmail;
     @DateTimeFormat
-    private String loadDate;
+    private String loanDate;
     @NotBlank
     private int startHour;
     @NotBlank
     private int durationHours;
+
+    public LaptopLoan() {
+        loanId = 0;
+        loanTag = "";
+        studentEmail = "";
+        loanDate = "";
+        startHour = 0;
+        durationHours = 0;
+    }
 }
