@@ -5,13 +5,14 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class LaptopLoanService {
-    LaptopLoan laptopLoan =  new LaptopLoan();
+    private LaptopLoan laptopLoan = new LaptopLoan();
 
-    public LaptopLoan getLaptopLoan(){
+    public LaptopLoan getLaptopLoan() {
         return laptopLoan;
     }
 
     public void setLaptopLoan(LaptopLoan laptopLoan){
         this.laptopLoan = laptopLoan;
     }
+
 }
