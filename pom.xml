@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ie.atu.OOP</groupId>
-    <artifactId>Oop_Inclass_7</artifactId>
+    <artifactId>Oop_Inclass_07</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Oop_Inclass_7</name>
     <description>Oop_Inclass_7</description>
